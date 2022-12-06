@@ -1,0 +1,248 @@
+body {
+     margin: 0;
+     text-align: center;
+     font-family: 'Barlow Semi Condensed', serif;
+     font-size: large;
+
+}
+     
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.skill-row {
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills-rows {
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+h1 {
+   margin: 50px auto 0 auto;
+   font-family: 'Pacifico', cursive;
+   font-size: 100px;
+   color: #68B984;
+}
+.header-desc {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    font-weight: 100;
+    color:#FFACC7;
+    line-height: 80%;
+
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #FFACC7;
+}
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #68B984;
+
+}
+
+
+div {
+    background-color: lavender;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 10%;
+    height: auto;
+
+
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    width: 10%;
+    height: auto;
+
+}
+
+.foto-luz {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 200px;
+    height: 200px;
+
+}
+.payaso {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+.learning-color {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.talking-color {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.controller-color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.headset-color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.brush-color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.sailor-moon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.crafting-color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.image {
+    margin: auto
+}
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: 3s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .btn {
+    background: #edccf5;
+    background-image: -webkit-linear-gradient(top, lavender, #FFACC7);
+    background-image: -moz-linear-gradient(top, lavender, #FFACC7);
+    background-image: -ms-linear-gradient(top, lavender, #FFACC7);
+    background-image: -o-linear-gradient(top, lavender, #FFACC7);
+    background-image: linear-gradient(to bottom, lavender, #FFACC7);
+    -webkit-border-radius: 47;
+    -moz-border-radius: 47;
+    border-radius: 47px;
+    text-shadow: 2px 3px 6px #cee3c3;
+    font-family: Barlow Semi Condensed;
+    color: #68B984;
+    font-size: 31px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  
+  }
+  
+  .btn:hover {
+    background: #74c5cc;
+    background-image: -webkit-linear-gradient(top, #FFACC7, lavender);
+    background-image: -moz-linear-gradient(top, #FFACC7 lavender);
+    background-image: -ms-linear-gradient(top, #FFACC7, lavender);
+    background-image: -o-linear-gradient(top, #FFACC7, lavender);
+    background-image: linear-gradient(to bottom, #FFACC7, lavender);
+    text-decoration: none;
+  }
+  .bottom-container {
+    margin: 40px 0 0 0;
+    background-color: #FFACC7;
+    padding: 50px 0 20px 0;
+
+    
+  }
+  .separation {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FFACC7;
+    border-width: 5px;
+    width: 20%;
+    margin: 5% auto;
+  }
+  .copyright {
+    color: #68B984;
+  }
+  .footer-link {
+    font-size: 20px;
+    color: #68B984;
+    margin: 10px 10px;
+    text-decoration: none;
+
+  }
+
+  .footer-link:hover {
+    color: lavender;
+
+}
+
+  .description-text {
+    margin: 30px;
+  }
+
+.alsolove {
+text-align: center;
+margin-top: 30px;
+}
